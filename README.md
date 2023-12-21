@@ -4,7 +4,7 @@ Make sure to do the exercises and no cheating!
 
 -----------------
 
-First check the exercise for instance:
+First check the exercise in exercises-basic.js for instance:
 
 ```javascript
 /*
@@ -18,7 +18,7 @@ First check the exercise for instance:
 * Current time is: 8:41:48 AM
 * */
 ```
-Work on it and check the solution:
+Work on it and check the solution in solution-basic.js:
 
 ```javascript
 /*
