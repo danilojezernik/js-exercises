@@ -38,3 +38,15 @@ console.log('Current date is: ' + fullTime)
 
 // Display the current time in a localized string format
 console.log('Current time is: ' + date.toLocaleTimeString())
+
+
+/*
+* 2. Solution for #2 ↓
+* */
+
+// Define a function name and call widow.print() method to initiate printing of the current page
+// In html use onclick to initialize function : <button onclick="print_page()">Print</button>
+function print_page() {
+    window.print()
+}
+
