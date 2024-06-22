@@ -1,4 +1,4 @@
-# JavaScript Exercises
+# JavaScript Exercises BASIC
 
 Make sure to do the exercises and no cheating!
 
