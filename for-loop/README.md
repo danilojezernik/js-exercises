@@ -15,11 +15,26 @@ any data intensive processing work. Let's try to explore how `for-loop` works. S
 a `for-loop`, then in a very generic `for-loop` can be expressed as follows:
 
 ```javascript
-for (start - loop; loop - condition; counter - update) {
-    execute
-    statement(s)
+for (start - loop or initialization; loop - condition; counter - update) {
+    // execute statement(s)
 }
 ```
 
-- `start-loop` is a simple way of initialization of a variable and anyway from some point the process of repetitive
-  cycle has to be get started
+- **start-loop** or `initialization` is the step where a variable is set to start the loop, marking the beginning of the
+  repetitive cycle.
+- **loop-condition** is a logical expression which evaluates to a boolean value, either `true` of `false`. Based on
+  this (`true/false`) value, `for-loop` control structure decides whether to repeat the set of statement(s) or not.
+- **counter-update** refers to the change in the variable's value by a fixed step (either increment or decrement) that
+  occurs after all the statements in `for-loop` block have been executed. It is closely related to `start-loop`
+  and `loop-condition`.
+
+The for-loop helps a programmer to repeat programming statement(s) over a "range of values". When we talk about a range,
+then it must have a minimum value and a maximum value.
+
+### break and continue keyword
+
+- **break** keyword within the `for-loop` stops further repetition of loop when condition for **break** statement is
+  reached. It's similar to how a moving car stops when the driver applies the **break**. When some condition with break
+  is meet, it will exit loop.
+- **continue** keyword returns control to the `for-loop`, skipping the remaining statements in the current iteration and
+  proceeding with the next iteration of the loop.
