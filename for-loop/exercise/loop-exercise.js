@@ -47,6 +47,15 @@ for (skip_multiple = 1; skip_multiple <= 20; skip_multiple++) {
 
     // Check if the current number is a multiple of 3
     if (skip_multiple % 3 === 0) {
+        /*
+        * If the number is a multiple of 3, skip the rest of the loop body and move to the next iteration
+        * Explanation of condition check:
+        * The expression 'skip_multiple % 3' calculates the remainder when 'skip_multiple' is divided by 3.
+        * If 'skip_multiple' is a multiple of 3, the remainder will be '0', making the condition true.
+        * For example:
+        * - If 'skip_multiple' is 3, then '3 % 3' equals '0', so the condition is true.
+        * - If 'skip_multiple' is 4, then '4 % 3' equals '1', so the condition is false.
+        */
         continue // If the number is a multiple of 3, skip the rest of the loop body and move to the next iteration
     }
 
