@@ -136,6 +136,8 @@ for (prime_number = 50; prime_number <= 100; prime_number++) {
 let count_divisible // Variable to iterate through numbers
 let count = 0 // counter to keep track of how many numbers have been printed
 
+console.log('Exercise 4: Divisible by Both 2 and 5')
+
 for (count_divisible = 1; count_divisible <= 100; count_divisible++) {
 
     // Check if number si divisible by both 2 and 5
@@ -167,3 +169,43 @@ for (count_divisible = 1; count_divisible <= 100; count_divisible++) {
  8. The loop continues until we have printed the first 5 numbers that are divisible by both 2 and 5 or until `count_divisible` exceeds 100.
  */
 
+/*
+* Exercise 5: Sum of Even Numbers in an Array
+* Write a program that iterates through an array of integers and calculates the sum of the even numbers. Use a for loop and a continue statement to skip the odd numbers.
+*/
+
+let count_even; // Variable to iterate through the array
+let sum_even = 0; // Variable to store the sum of even numbers
+let integers = [12, 7, 5, 22, 19, 8, 33, 40, 2, 17]; // Array of integers
+
+console.log('Exercise 5: Sum of Even Numbers in an Array');
+
+// Iterate through the array of integers
+for (count_even = 0; count_even < integers.length; count_even++) {
+
+    // Check if the current number is odd
+    if (integers[count_even] % 2 !== 0) {
+        continue; // Skip the rest of the loop and move to the next iteration if the number is odd
+    }
+
+    // Add the even number to the sum
+    sum_even += integers[count_even];
+}
+
+// Print the sum of even numbers
+console.log(`Sum of even numbers: ${sum_even}`);
+
+/**
+ Explanation:
+ 1. Declare a variable `count_even` to iterate through the array.
+ 2. Declare a variable `sum_even` to store the sum of even numbers.
+ 3. Initialize the array `integers` with a set of integers.
+ 4. Print a message indicating the start of the exercise.
+ 5. Use a `for` loop to iterate through each element in the array `integers`.
+ - The loop runs from 0 to the length of the array minus one.
+ 6. Inside the loop, check if the current number is odd using the modulus operator `%`.
+ - If `integers[count_even] % 2 !== 0`, the number is odd.
+ - Use the `continue` statement to skip the rest of the loop and move to the next iteration if the number is odd.
+ 7. If the number is even, add it to the `sum_even` variable.
+ 8. After the loop, print the sum of the even numbers.
+ */
