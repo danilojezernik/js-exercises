@@ -8,6 +8,6 @@
 # Exercises - for loop
 
 1. About a for-loop
-2. for-loop incriment
+2. for-loop increment
 
 [JavaScript Exercises FOR LOOP](https://github.com/danilojezernik/js-exercises/tree/master/for-loop)
